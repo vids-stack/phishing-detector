@@ -1,0 +1,29 @@
+Return-Path: <bounce@bulk-sender.example>
+Received: from mail.bulk-sender.example (unknown [203.0.113.45])
+	by mx.victim-mail.example with ESMTP id ABC123
+	for <you@victim-mail.example>; Thu, 9 Oct 2026 10:15:00 +0000
+Authentication-Results: mx.victim-mail.example;
+	spf=fail smtp.mailfrom=bulk-sender.example;
+	dkim=none;
+	dmarc=fail header.from=paypa1-support.example
+From: "PayPal Security" <security@paypa1-support.example>
+Reply-To: <collect@account-verify.example>
+To: you@victim-mail.example
+Subject: URGENT: Your account has been locked
+Date: Thu, 9 Oct 2026 10:14:58 +0000
+Message-ID: <fake-12345@bulk-sender.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We detected unusual activity on your account and it has been temporarily
+locked. To restore access, you must verify your details within 24 hours:
+
+http://login-paypa1.example/verify
+
+If you do not verify, your account will be permanently closed.
+
+PayPal Security Team
+
+(THIS IS A FAKE PHISHING EMAIL FOR TESTING. ALL DOMAINS ARE MADE UP.)
